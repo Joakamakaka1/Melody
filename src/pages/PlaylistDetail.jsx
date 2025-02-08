@@ -12,28 +12,28 @@ export default function PlaylistDetail() {
       id: 1,
       name: "Rock Clásico",
       creator: "Juan",
-      image: "/rock.jpg",
+      image: "/img/fotoFondo.png",
       rating: 4.5,
     },
     {
       id: 2,
       name: "Electrónica",
       creator: "Ana",
-      image: "/electro.jpg",
+      image: "/img/english.png",
       rating: 4.8,
     },
     {
       id: 3,
       name: "Jazz Vibes",
       creator: "Luis",
-      image: "/jazz.jpg",
+      image: "/img/reguetton.png",
       rating: 3.9,
     },
     {
       id: 4,
       name: "Indie Hits",
       creator: "María",
-      image: "/indie.jpg",
+      image: "/img/image.png",
       rating: 4.2,
     },
   ];
@@ -86,7 +86,7 @@ export default function PlaylistDetail() {
 
       {/* Sección de todas las playlists */}
       <section className="container mx-auto py-12 px-6">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center pb-2">
           <h3 className="text-2xl font-semibold">Todas las Playlists</h3>
           <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
             Mostrar más
@@ -97,7 +97,7 @@ export default function PlaylistDetail() {
 
       {/* Sección de playlists populares */}
       <section className="container mx-auto py-12 px-6">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center pb-2">
           <h3 className="text-2xl font-semibold">Populares de la Semana</h3>
           <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
             Mostrar más
@@ -112,7 +112,7 @@ export default function PlaylistDetail() {
 
       {/* Sección de playlists de amigos */}
       <section className="container mx-auto py-12 px-6">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center pb-2">
           <h3 className="text-2xl font-semibold">Playlists de tus Amigos</h3>
           <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
             Mostrar más

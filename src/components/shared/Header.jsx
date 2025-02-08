@@ -3,9 +3,9 @@ export default function Header() {
     <header className="flex items-center justify-between bg-gray-900 text-white px-10 py-8 sticky top-0 w-full">
       {/* Logo y título estilizado */}
       <div className="flex items-center space-x-2">
-        <div className="w-4 h-4 bg-orange-500 rounded-full"></div>
-        <div className="w-4 h-4 bg-green-500 rounded-full"></div>
-        <div className="w-4 h-4 bg-blue-500 rounded-full"></div>
+        <div className="w-4 h-4 bg-teal-500 rounded-full"></div>
+        <div className="w-4 h-4 bg-yellow-500 rounded-full"></div>
+        <div className="w-4 h-4 bg-pink-500 rounded-full"></div>
         <h1 className="text-3xl font-bold ml-2">Melody</h1>
       </div>
 
@@ -68,7 +68,7 @@ export default function Header() {
               stroke-linecap="round"
             ></path>
           </svg>
-          </button>
+        </button>
       </form>
     </header>
   );
