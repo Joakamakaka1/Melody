@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "TiemposHeadline-Bold";
+    src: url("https://db.onlinewebfonts.com/t/171d30888ae4dbce3d0224490887fb87.eot");
+    src: url("https://db.onlinewebfonts.com/t/171d30888ae4dbce3d0224490887fb87.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/171d30888ae4dbce3d0224490887fb87.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/171d30888ae4dbce3d0224490887fb87.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/171d30888ae4dbce3d0224490887fb87.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/171d30888ae4dbce3d0224490887fb87.svg#TiemposHeadline-Bold") format("svg");
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "TiemposHeadline-Bold", Georgia, serif;
+}
