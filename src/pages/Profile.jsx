@@ -5,7 +5,7 @@ export default function Profile() {
       <div className="container mx-auto flex items-center justify-between px-6 py-10">
         <div className="flex items-center space-x-4">
           <img
-            src="img/image.png"
+            src="img/image.webp"
             alt="Avatar"
             className="w-30 h-30 rounded-full border-2 border-gray-700"
           />
@@ -74,7 +74,7 @@ export default function Profile() {
               className="bg-gray-800 p-4 rounded-lg shadow-lg border-4 border-gray-800 cursor-pointer hover:border-blue-500 transition duration-300"
             >
               <img
-                src="img/fotoFondo.png"
+                src="img/album3.webp"
                 alt="Imagen Playlist"
                 className="w-full h-55 object-cover rounded-md"
               />

@@ -34,7 +34,7 @@ export default function Home() {
             >
               <div className="h-75 bg-gray-700 rounded-md">
                 <img
-                  src="img/fotoFondo.png"
+                  src="img/album3.webp"
                   alt="iamgenPlaylist"
                   className="w-full h-full object-cover"
                 />
@@ -108,8 +108,8 @@ export default function Home() {
               <Link to={"#"}>
                 <div className="h-32 w-32 bg-gray-700 rounded-md">
                   <img
-                    src="img/fotoFondo.png"
-                    alt="iamgenPlaylist"
+                    src="img/album1.webp"
+                    alt="imagenPlaylist"
                     className="w-full h-full object-cover"
                   />
                 </div>
