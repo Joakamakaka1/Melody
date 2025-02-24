@@ -37,7 +37,7 @@ export default function PlaylistDetail() {
       rating: 4.2,
     },
   ];
-  
+
   const popularPlaylists = allPlaylists.slice(0, 4);
   const friendsPlaylists = allPlaylists.slice(0, 4);
 
@@ -88,18 +88,18 @@ export default function PlaylistDetail() {
       <section className="container mx-auto py-12 px-6">
         <div className="flex justify-between items-center pb-2">
           <h3 className="text-2xl font-semibold">Todas las Playlists</h3>
-          <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
+          <Link to="#" className="text-lg text-blue-400 hover:text-blue-600">
             Mostrar más
           </Link>
         </div>
-          <CardList playlists={allPlaylists.slice(indexAll, indexAll + 4)} />
+        <CardList playlists={allPlaylists.slice(indexAll, indexAll + 4)} />
       </section>
 
       {/* Sección de playlists populares */}
       <section className="container mx-auto py-12 px-6">
         <div className="flex justify-between items-center pb-2">
           <h3 className="text-2xl font-semibold">Populares de la Semana</h3>
-          <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
+          <Link to="#" className="text-lg text-blue-400 hover:text-blue-600">
             Mostrar más
           </Link>
         </div>
@@ -114,13 +114,13 @@ export default function PlaylistDetail() {
       <section className="container mx-auto py-12 px-6">
         <div className="flex justify-between items-center pb-2">
           <h3 className="text-2xl font-semibold">Playlists de tus Amigos</h3>
-          <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
+          <Link to="#" className="text-lg text-blue-400 hover:text-blue-600">
             Mostrar más
           </Link>
         </div>
-          <CardList
-            playlists={friendsPlaylists.slice(indexFriends, indexFriends + 4)}
-          />
+        <CardList
+          playlists={friendsPlaylists.slice(indexFriends, indexFriends + 4)}
+        />
       </section>
     </div>
   );

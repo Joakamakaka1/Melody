@@ -7,14 +7,62 @@ export default function Members() {
 
   useEffect(() => {
     const userList = [
-      { id: 1, name: "Juan Pérez", username: "juanp", followers: 120, playlists: 5 },
-      { id: 2, name: "María López", username: "marial", followers: 340, playlists: 12 },
-      { id: 3, name: "Carlos García", username: "carlosg", followers: 89, playlists: 3 },
-      { id: 4, name: "Ana Torres", username: "anator", followers: 245, playlists: 8 },
-      { id: 5, name: "Roberto Sánchez", username: "robertos", followers: 180, playlists: 6 },
-      { id: 6, name: "Lucía Fernández", username: "luciaf", followers: 400, playlists: 15 },
-      { id: 7, name: "Fernando Rivas", username: "fernandor", followers: 75, playlists: 2 },
-      { id: 8, name: "Gabriela Castro", username: "gabrielac", followers: 310, playlists: 9 },
+      {
+        id: 1,
+        name: "Juan Pérez",
+        username: "juanp",
+        followers: 120,
+        playlists: 5,
+      },
+      {
+        id: 2,
+        name: "María López",
+        username: "marial",
+        followers: 340,
+        playlists: 12,
+      },
+      {
+        id: 3,
+        name: "Carlos García",
+        username: "carlosg",
+        followers: 89,
+        playlists: 3,
+      },
+      {
+        id: 4,
+        name: "Ana Torres",
+        username: "anator",
+        followers: 245,
+        playlists: 8,
+      },
+      {
+        id: 5,
+        name: "Roberto Sánchez",
+        username: "robertos",
+        followers: 180,
+        playlists: 6,
+      },
+      {
+        id: 6,
+        name: "Lucía Fernández",
+        username: "luciaf",
+        followers: 400,
+        playlists: 15,
+      },
+      {
+        id: 7,
+        name: "Fernando Rivas",
+        username: "fernandor",
+        followers: 75,
+        playlists: 2,
+      },
+      {
+        id: 8,
+        name: "Gabriela Castro",
+        username: "gabrielac",
+        followers: 310,
+        playlists: 9,
+      },
     ];
 
     // Ordenar por seguidores (de mayor a menor) y guardar en estado
@@ -47,13 +95,15 @@ export default function Members() {
               <p className="text-gray-400">@{user.username}</p>
               <div className="flex items-center gap-4 text-gray-300 mt-3">
                 <span className="flex items-center gap-2">
-                  <FaUsers className="text-gray-400" /> {user.followers} Seguidores
+                  <FaUsers className="text-gray-400" /> {user.followers}{" "}
+                  Seguidores
                 </span>
                 <span className="flex items-center gap-2">
-                  <FaMusic className="text-gray-400" /> {user.playlists} Playlists
+                  <FaMusic className="text-gray-400" /> {user.playlists}{" "}
+                  Playlists
                 </span>
               </div>
-              <button className="mt-4 px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600 transition flex items-center gap-2">
+              <button className="mt-4 px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition flex items-center gap-2">
                 <FaPlus /> Agregar
               </button>
             </div>
@@ -79,14 +129,16 @@ export default function Members() {
                 <p className="text-gray-400">@{user.username}</p>
                 <div className="flex items-center gap-6 text-gray-300 mt-2">
                   <span className="flex items-center gap-2">
-                    <FaUsers className="text-gray-400" /> {user.followers} Seguidores
+                    <FaUsers className="text-gray-400" /> {user.followers}{" "}
+                    Seguidores
                   </span>
                   <span className="flex items-center gap-2">
-                    <FaMusic className="text-gray-400" /> {user.playlists} Playlists
+                    <FaMusic className="text-gray-400" /> {user.playlists}{" "}
+                    Playlists
                   </span>
                 </div>
               </div>
-              <button className="px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600 transition flex items-center gap-2">
+              <button className="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition flex items-center gap-2">
                 <FaPlus /> Agregar
               </button>
             </div>
