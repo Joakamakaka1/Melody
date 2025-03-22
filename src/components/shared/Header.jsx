@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header className="flex items-center justify-between bg-gray-900 text-white px-10 py-8 sticky top-0 w-full">
@@ -6,17 +8,14 @@ export default function Header() {
         <div className="w-4 h-4 bg-teal-500 rounded-full"></div>
         <div className="w-4 h-4 bg-yellow-500 rounded-full"></div>
         <div className="w-4 h-4 bg-pink-500 rounded-full"></div>
-        <h1 className="text-3xl font-bold ml-2">Melody</h1>
+        <Link to="/">
+          <h1 className="text-3xl font-bold ml-2">Melody</h1>
+        </Link>
       </div>
 
       {/* Menú de navegación */}
       <nav>
         <ul className="flex space-x-10 text-xl font-medium">
-          <li>
-            <a href="/" className="hover:text-gray-400">
-              Home
-            </a>
-          </li>
           <li>
             <a href="/login" className="hover:text-gray-400">
               Login

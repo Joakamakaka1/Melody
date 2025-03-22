@@ -13,7 +13,7 @@ export default function Profile() {
             <h2 className="text-3xl font-bold">Joaquin</h2>
             <p className="text-gray-400 text-lg">📍 Cádiz</p>
           </div>
-          <button className="px-4 py-3 bg-gray-700 rounded-lg text-sm hover:bg-gray-600">
+          <button className="px-4 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 text-sm cursor-pointer">
             Edit Profile
           </button>
         </div>
@@ -61,7 +61,7 @@ export default function Profile() {
       <section className="container mx-auto py-12 px-6">
         <div className="flex justify-between items-center">
           <h3 className="text-2xl font-semibold">Todas las Playlists</h3>
-          <Link to="#" className="text-lg text-blue-500 hover:text-blue-700">
+          <Link to="#" className="text-lg text-blue-400 hover:text-blue-600">
             Mostrar más
           </Link>
         </div>
@@ -73,11 +73,13 @@ export default function Profile() {
               key={index}
               className="bg-gray-800 p-4 rounded-lg shadow-lg border-4 border-gray-800 cursor-pointer hover:border-blue-500 transition duration-300"
             >
-              <img
-                src="img/album3.webp"
-                alt="Imagen Playlist"
-                className="w-full h-55 object-cover rounded-md"
-              />
+              <div className="h-75 bg-gray-700 rounded-md">
+                <img
+                  src="img/album3.webp"
+                  alt={`Playlist ${index + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h4 className="mt-4 text-lg font-semibold">
                 Usuario {index + 1}
               </h4>
