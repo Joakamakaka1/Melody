@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
+    <main className="bg-gray-900 text-white min-h-screen">
       {/* Hero Section */}
       <section className="text-center py-20">
         <h2 className="text-4xl font-bold">Descubre la mejor música</h2>
@@ -111,6 +111,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-    </div>
+    </main>
   );
 }

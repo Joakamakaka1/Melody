@@ -10,11 +10,12 @@ import Register from "./pages/auth/Register.jsx";
 import Profile from "./pages/Profile.jsx";
 import Members from "./pages/Members.jsx";
 import PlaylistDetail from "./pages/PlaylistDetail.jsx";
+import PlaylistInfo from "./pages/PlaylistInfo.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Router>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/profile" element={<Profile />} />
         <Route path="/members" element={<Members />} />
         <Route path="/playlistdetail" element={<PlaylistDetail />} />
+        <Route path="/playlistInfo" element={<PlaylistInfo />} />
       </Routes>
       <Footer />
     </Router>
