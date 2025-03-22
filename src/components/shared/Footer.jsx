@@ -1,10 +1,6 @@
 export default function Footer() {
   return (
-<<<<<<< HEAD
     <footer className="bg-gray-900 text-gray-400 text-sm py-6">
-=======
-    <footer className="bg-gray-900 text-white text-sm pt-20 pb-5">
->>>>>>> 4a78ee696c57136b8a2db5e5f610add705d5a9e4
       <div className="container mx-auto flex flex-col items-center space-y-3">
         {/* Enlaces */}
         <div className="flex space-x-6 text-gray-300 font-semibold">
